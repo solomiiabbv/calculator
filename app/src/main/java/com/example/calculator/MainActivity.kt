@@ -24,6 +24,22 @@ class MainActivity : AppCompatActivity() {
             currentInput += "1"
             tvResult.text = currentInput
         }
+        // Кнопки 2 і 3
+        findViewById<Button>(R.id.btn2).setOnClickListener {
+            currentInput += "2"
+            tvResult.text = currentInput
+        }
+
+        findViewById<Button>(R.id.btn3).setOnClickListener {
+            currentInput += "3"
+            tvResult.text = currentInput
+        }
+
+// Кнопка +
+        findViewById<Button>(R.id.btnAdd).setOnClickListener {
+            currentInput += "+"
+            tvResult.text = currentInput
+        }
     }
 
 }
