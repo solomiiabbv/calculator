@@ -33,4 +33,8 @@ android:rowCount="5">
 <Button android:id="@+id/btn8" android:text="8"/>
 <Button android:id="@+id/btn9" android:text="9"/>
 <Button android:id="@+id/btnMul" android:text="*"/>
+<Button android:id="@+id/btn0" android:text="0"/>
+<Button android:id="@+id/btnClear" android:text="Clear"/>
+<Button android:id="@+id/btnEqual" android:text="="/>
+<Button android:id="@+id/btnDiv" android:text="/"/>
 </GridLayout>
