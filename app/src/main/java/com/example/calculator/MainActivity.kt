@@ -40,6 +40,11 @@ class MainActivity : AppCompatActivity() {
             currentInput += "+"
             tvResult.text = currentInput
         }
+        // Кнопка Clear
+        findViewById<Button>(R.id.btnClear).setOnClickListener {
+            currentInput = ""
+            tvResult.text = "0"
+        }
     }
 
 }
