@@ -15,3 +15,14 @@
         android:background="#EEEEEE" />
 
 </LinearLayout>
+<GridLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:columnCount="4"
+android:rowCount="5">
+
+<Button android:id="@+id/btn1" android:text="1"/>
+<Button android:id="@+id/btn2" android:text="2"/>
+<Button android:id="@+id/btn3" android:text="3"/>
+<Button android:id="@+id/btnAdd" android:text="+"/>
+</GridLayout>
